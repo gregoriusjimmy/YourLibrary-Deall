@@ -1,3 +1,30 @@
+# ⚠️ IMPORTANT ⚠️
+
+The API is blocked due to CORS
+
+![CORS error](readme/readmepic1.png? "CORS error")
+
+So I'm using this extension in Google Chrome
+
+https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
+
+## How to use the extension
+
+Run the server with `npm install` & `npm start`
+
+In the http://localhost:3000/ activate extension by clicking the logo
+![extension](readme/readmepic2.png? "Cors extension")
+
+# Feedback to B3k3n backend team
+
+The API https://asia-southeast2-sejutacita-app.cloudfunctions.net/fee-assessment-books is great, actually if the pagination feature is implemented just like in this repo.
+
+The only thing that needs to be added is the total number of books (book length). It is needed to know what pages are the latest pages. The way this repo knows when the latest pagination is still hacky. If we got the error when fetching, I'm concluded that the data was unavailable.
+
+We need the total books to able create pagination like these (cmiiw)
+![doc](readme/readmepic3.png? "doc")
+![doc](readme/readmepic4.png? "doc")
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
